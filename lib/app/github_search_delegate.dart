@@ -60,7 +60,7 @@ class GitHubSearchDelegate extends SearchDelegate<GitHubUser> {
               
               physics: BouncingScrollPhysics(),
               itemCount: users.length,
-              scrollDirection: Axis.horizontal,
+              scrollDirection: Axis.vertical,
               // gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
               //   maxCrossAxisExtent: 200,
               //   crossAxisSpacing: 10,
@@ -136,12 +136,12 @@ class GitHubUserSearchResultTile extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(height: 28.0),
+          SizedBox(height: 35.0),
           Text(
             user.login,
             style: TextStyle(
-              fontSize: 28,
-              fontWeight: FontWeight.w600,
+              fontSize: 35,
+              fontWeight: FontWeight.w700,
             )
           ),
           
@@ -152,7 +152,7 @@ class GitHubUserSearchResultTile extends StatelessWidget {
               Text(
                 "star ${user.score}",
                 style: TextStyle(
-                  fontSize: 28,
+                  fontSize:30 ,
                   fontWeight: FontWeight.w600,
                 )
               ),

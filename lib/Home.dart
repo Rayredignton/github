@@ -35,13 +35,13 @@ void _showSearch(BuildContext context) async {
           color: Colors.black,
           child: Padding(
             padding: EdgeInsets.all(20),
-            child: Column(
+            child: Column(crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
-               SizedBox(height: MediaQuery.of(context).size.height * 0.4,),
+               SizedBox(height: MediaQuery.of(context).size.height * 0.38,),
                 Center(
                   child: Container(
-                    width: 80,
-                    height: 80,
+                    width: 100,
+                    height: 100,
                     child: CircleAvatar(
                       backgroundColor: Colors.transparent,
                       backgroundImage: NetworkImage('https://icon-library.net/images/github-icon-png/github-icon-png-29.jpg'),
