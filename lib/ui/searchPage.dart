@@ -2,9 +2,9 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
-import 'package:githubApp/models/github_search_result.dart';
-import 'package:githubApp/models/github_user.dart';
-import 'package:githubApp/services/github_search_service.dart';
+import 'package:githubApp/core/models/github_search_result.dart';
+import 'package:githubApp/core/models/github_user.dart';
+import 'package:githubApp/core/services/github_search_service.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class GitHubSearchDelegate extends SearchDelegate<GitHubUser> {

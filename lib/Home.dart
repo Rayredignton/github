@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:githubApp/app/github_search_delegate.dart';
-import 'package:githubApp/models/github_user.dart';
-import 'package:githubApp/services/github_search_api_wrapper.dart';
-import 'package:githubApp/services/github_search_service.dart';
+import 'package:githubApp/ui/searchPage.dart';
+import 'package:githubApp/core/models/github_user.dart';
+import 'package:githubApp/core/services/github_search_api_wrapper.dart';
+import 'package:githubApp/core/services/github_search_service.dart';
 
 
 

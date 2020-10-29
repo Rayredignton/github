@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:githubApp/models/github_search_result.dart';
-import 'package:githubApp/models/github_user.dart';
+import 'package:githubApp/core/models/github_search_result.dart';
+import 'package:githubApp/core/models/github_user.dart';
 import 'package:http/http.dart' as http;
 
 class GitHubSearchAPIWrapper {
